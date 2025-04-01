@@ -1,24 +1,23 @@
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(to bottom, orange, orangered, yellow);
-    box-sizing: border-box; 
-    overflow-x: hidden; 
+    font-family: Arial, sans-serif !important;
+    background-color: #f4f4f4 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    background: linear-gradient(to bottom, orange, orangered, yellow) !important;
+    box-sizing: border-box !important; 
+    overflow-x: hidden !important; 
 }
 
 header,
 footer {
-    width: 100%;
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+    width: 100% !important;
+    text-align: center !important;
+    background-color: #333 !important;
+    color: white !important;
+    padding: 10px 0 !important;
 }
 
 header h1 {
@@ -100,27 +99,27 @@ aside {
 }
 
 .search-form input[type="text"] {
-    padding: 5px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 100%; 
-    box-sizing: border-box;
+    padding: 5px !important;
+    font-size: 16px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    width: 100% !important; 
+    box-sizing: border-box !important;
 }
 
 .search-form button {
-    padding: 5px 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
-    background-color: #007BFF;
-    color: white;
-    cursor: pointer;
-    margin-left: 5px;
+    padding: 5px 10px !important;
+    font-size: 16px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    background-color: #007BFF !important;
+    color: white !important;
+    cursor: pointer !important;
+    margin-left: 5px !important;
 }
 
 .search-form button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3 !important;
 }
 
 footer {
@@ -131,6 +130,48 @@ footer {
     margin-top: 20px;
 }
 
+/* Estilos do Carrossel */
+.carousel {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 20px auto !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+
+.carousel-item {
+    height: 400px !important;
+}
+
+.carousel-item img {
+    object-fit: cover !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.carousel-indicators {
+    margin-bottom: 0 !important;
+}
+
+.carousel-indicators button {
+    background-color: #007BFF !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    margin: 0 5px !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5% !important;
+    opacity: 0.7 !important;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1 !important;
+}
 
 @media (max-width: 768px) {
     .main-container {
@@ -160,6 +201,10 @@ footer {
         margin: 0 0 10px 0;
         width: 100%; 
         max-width: 300px;
+    }
+
+    .carousel-item {
+        height: 300px !important;
     }
 }
 
@@ -196,5 +241,13 @@ footer {
 
     main, aside {
         margin: 0; 
+    }
+
+    .carousel-item {
+        height: 200px !important;
+    }
+    
+    .carousel {
+        margin: 10px auto !important;
     }
 }
