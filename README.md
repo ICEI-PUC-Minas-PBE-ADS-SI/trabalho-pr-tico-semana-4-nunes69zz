@@ -8,9 +8,9 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
+- Nome: Pedro Nunes Cruz
+- Matricula: 890508
+- Proposta de projeto escolhida: Menu de receitas
 - Breve descrição sobre seu projeto:
 
 ## Print da versão responsiva com CSS puro
